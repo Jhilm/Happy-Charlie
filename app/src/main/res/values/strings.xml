@@ -4,4 +4,10 @@
     <string name="bienvenida">Bienvenid@</string>
     <string name="tocar">Toca para continuar</string>
     <string name="salir">boton_salir</string>
+    <string name="ruido">boton_ruido</string>
+    <string name="musica">boton_musica</string>
+    <string name="meditacion">boton_meditacion</string>
+    <string name="mensajes">boton_mensajes</string>
+    <string name="calculadora">boton_calculadora</string>
+    <string name="title_activity_lobby">lobby</string>
 </resources>
