@@ -2,6 +2,7 @@
     <string name="app_name">Happy Charlie</string>
     <string name="title_activity_inicio">Inicio</string>
     <string name="bienvenida">Bienvenid@</string>
+    <string name="image">gif mano</string>
     <string name="tocar">Toca para continuar</string>
     <string name="salir">boton_salir</string>
     <string name="ruido">boton_ruido</string>
