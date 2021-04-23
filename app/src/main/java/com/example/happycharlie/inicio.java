@@ -1,5 +1,6 @@
 package com.example.happycharlie;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -47,8 +48,10 @@ public class inicio extends AppCompatActivity {
             }
         });
 
-
-
     }
 
+    public void SiguientePantalla(View view) {
+        Intent siguiente = new Intent(this, lobby.class);
+        startActivity(siguiente);
+    }
 }
