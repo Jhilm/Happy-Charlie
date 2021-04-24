@@ -14,5 +14,8 @@
     <string name="pug">Charlie</string>
     <string name="title_activity_animo">animo</string>
     <string name="iboton_atras">atras</string>
+    <string name="Mns">Mensaje</string>
+    <string name="B">B</string>
+    <string name="Imag">Informacion</string>
 
 </resources>
