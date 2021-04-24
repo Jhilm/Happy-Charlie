@@ -30,6 +30,7 @@ public class inicio extends AppCompatActivity {
         int action = MotionEventCompat.getActionMasked(event);
         if (action==MotionEvent.ACTION_DOWN){
             mHideHandler.removeCallbacks(mHideRunnable);
+
         }
         return super.onTouchEvent(event);
     }
@@ -50,7 +51,7 @@ public class inicio extends AppCompatActivity {
 
     }
 
-    public void SiguientePantalla(View view) {
+    public void SiguientePantalla(View v) {
         Intent siguiente = new Intent(this, lobby.class);
         startActivity(siguiente);
     }
