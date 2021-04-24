@@ -50,7 +50,7 @@ public class inicio extends AppCompatActivity {
 
     }
 
-    public void SiguientePantalla(View view) {
+    public void siguientePantalla(View view) {
         Intent siguiente = new Intent(this, lobby.class);
         startActivity(siguiente);
     }

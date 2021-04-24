@@ -11,4 +11,6 @@
     <string name="mensajes">boton_mensajes</string>
     <string name="calculadora">boton_calculadora</string>
     <string name="title_activity_lobby">lobby</string>
+    <string name="title_activity_animo">animo</string>
+    <string name="iboton_atras">atras</string>
 </resources>

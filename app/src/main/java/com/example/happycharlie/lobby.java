@@ -1,5 +1,6 @@
 package com.example.happycharlie;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -19,6 +20,11 @@ public class lobby extends AppCompatActivity {
 
 
 
+    }
+
+    public void pantallaAnimo(View view) {
+        Intent siguiente = new Intent(this, animo.class);
+        startActivity(siguiente);
     }
 
 }

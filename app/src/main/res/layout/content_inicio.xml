@@ -68,12 +68,12 @@
         android:layout_marginEnd="350dp"
         android:clickable="true"
         android:contentDescription="@string/image"
-        android:onClick="SiguientePantalla"
+        android:focusable="true"
+        android:onClick="siguientePantalla"
         android:src="@drawable/tap"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:focusable="true" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
