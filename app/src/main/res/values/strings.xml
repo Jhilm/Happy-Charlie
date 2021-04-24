@@ -12,4 +12,7 @@
     <string name="calculadora">boton_calculadora</string>
     <string name="title_activity_lobby">lobby</string>
     <string name="pug">Charlie</string>
+    <string name="title_activity_animo">animo</string>
+    <string name="iboton_atras">atras</string>
+
 </resources>

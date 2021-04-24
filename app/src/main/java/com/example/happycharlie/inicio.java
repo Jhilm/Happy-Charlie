@@ -51,7 +51,9 @@ public class inicio extends AppCompatActivity {
 
     }
 
-    public void SiguientePantalla(View v) {
+
+    public void SiguientePantalla(View view) {
+
         Intent siguiente = new Intent(this, lobby.class);
         startActivity(siguiente);
     }
