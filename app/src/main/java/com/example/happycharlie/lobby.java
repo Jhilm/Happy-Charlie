@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.ImageButton;
 
 public class lobby extends AppCompatActivity {
 
@@ -25,6 +26,11 @@ public class lobby extends AppCompatActivity {
     public void pantallaAnimo(View view) {
         Intent siguiente = new Intent(this, animo.class);
         startActivity(siguiente);
+    }
+
+    public void cambioEmocion(View view) {
+        ImageButton charlie = (ImageButton)findViewById(R.id.charlie);
+        charlie.setImageResource(R.drawable.pug2);
     }
 
 }

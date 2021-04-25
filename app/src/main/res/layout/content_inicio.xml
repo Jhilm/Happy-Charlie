@@ -84,7 +84,7 @@
         android:clickable="true"
         android:contentDescription="@string/image"
         android:focusable="true"
-        android:onClick="siguientePantalla"
+        android:onClick="SiguientePantalla"
         android:src="@drawable/tap"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"

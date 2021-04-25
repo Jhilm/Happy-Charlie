@@ -9,6 +9,21 @@
     tools:showIn="@layout/activity_lobby">
 
     <ImageButton
+        android:id="@+id/charlie"
+        android:layout_width="411dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/pug"
+        android:background="@android:color/transparent"
+        android:onClick="cambioEmocion"
+        app:layout_constraintBottom_toTopOf="@+id/btnRuido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pug1" />
+    <ImageButton
         android:id="@+id/btnRuido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
