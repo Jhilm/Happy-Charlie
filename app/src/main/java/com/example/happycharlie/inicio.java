@@ -15,7 +15,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class inicio extends AppCompatActivity {
+public class inicio extends AppCompatActivity implements View.OnClickListener {
 
 
     Handler mHideHandler = new Handler();
@@ -54,11 +54,26 @@ public class inicio extends AppCompatActivity {
     public void cambioEmocion(View view) {
         ImageButton charlie = (ImageButton)findViewById(R.id.charlie2);
         charlie.setImageResource(R.drawable.pug2);
+        int timer = 5;
+        /*while(timer > 0){
+            try {
+                Thread.sleep(1*1000);
+                timer -= 1;
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }*/
     }
 
     public void SiguientePantalla(View view) {
 
         Intent siguiente = new Intent(this, lobby.class);
         startActivity(siguiente);
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
