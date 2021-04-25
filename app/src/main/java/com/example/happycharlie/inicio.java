@@ -51,6 +51,10 @@ public class inicio extends AppCompatActivity {
 
     }
 
+    public void cambioEmocion(View view) {
+        ImageButton charlie = (ImageButton)findViewById(R.id.charlie2);
+        charlie.setImageResource(R.drawable.pug2);
+    }
 
     public void SiguientePantalla(View view) {
 
